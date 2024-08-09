@@ -24,7 +24,7 @@ body {
 
 
 ol {
-  width: 45%;
+  width: 25%;
   height: 100%;
   --s: 200px; /* control the size */
   --c1: #1d1d1d;
@@ -48,7 +48,7 @@ ol {
 }
 
 header {
-  width: 45%;
+  width: 95%;
   height: 100%;
   --s: 200px; /* control the size */
   --c1: #1d1d1d;
@@ -74,22 +74,3 @@ header {
 h1 {
   font-weight: bold;
 }
-
-
-
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
-}
-
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #676767;
-}
-
