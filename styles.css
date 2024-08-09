@@ -24,7 +24,7 @@ body {
 
 
 ol {
-  width: 100%;
+  width: 45%;
   height: 100%;
   --s: 200px; /* control the size */
   --c1: #1d1d1d;
@@ -45,4 +45,9 @@ ol {
     );
   background-size: var(--s) calc(var(--s) * 0.577);
   color: aliceblue;
+}
+
+header {
+  background-color: rgb(173, 173, 173);
+  
 }
